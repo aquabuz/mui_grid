@@ -1,4 +1,15 @@
 html,
+body,
+#__next {
+  height: 100%;
+  overflow: hidden;
+}
+
+#__next {
+  display: flex;
+}
+
+html,
 body {
   padding: 0;
   margin: 0;
